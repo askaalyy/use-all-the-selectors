@@ -1,20 +1,36 @@
 html {
-    box-sizing: border-box;
-    background-color: #fdf6e3;
+  box-sizing: border-box;
+  background-color: #fdf6e3;
+}
 
-  }
+*, *::before, *::after {
+  box-sizing: inherit;
+}
 
-  *, *::before, *::after {
-    box-sizing: inherit;
-  }
-
-
-
-
-header,footer {
+header, footer {
   font-size: 1.5rem;
 }
 
 nav ul {
+  font-family: sans-serif;
+}
 
+h1 {
+  text-transform: uppercase;
+}
+
+main {
+  background-color: #eee8d5;
+}
+
+h2 {
+  color: #93a1a1;
+}
+
+div {
+  background-color: #b58900;
+}
+
+strong {
+  color: #fff;
 }
