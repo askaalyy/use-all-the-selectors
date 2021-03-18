@@ -31,7 +31,7 @@ div {
   background-color: #b58900;
 }
 
-strong {
+strong:nth-child(2n) {
   color: #fff;
 }
 
@@ -40,7 +40,7 @@ a {
 }
 
 li a {
-  background-color: #2694d5;
+  background-color: #2694d8;
 }
 
 ol li:first-child {
