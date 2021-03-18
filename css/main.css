@@ -1,4 +1,20 @@
 html {
-background-color: #fdf6e3;
+    box-sizing: border-box;
+    background-color: #fdf6e3;
+
+  }
+
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+
+
+
+
+header,footer {
+  font-size: 1.5rem;
+}
+
+nav ul {
 
 }
